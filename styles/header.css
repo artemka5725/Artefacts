@@ -1,0 +1,25 @@
+.container__navigation {
+    width: 1110px;
+    height: 60px;
+    background-color: #1D2F30;
+    display: flex;
+}
+header {
+    background-color: #1D2F30;
+}
+.navigation__logo {
+    margin-left: 165px;
+    margin-right: 125px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.navigation__list  {
+    display: flex;
+    gap:64px;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    margin-right: auto;
+}
+a {
+    color: white;
+}
