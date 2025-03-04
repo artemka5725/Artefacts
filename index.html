@@ -9,28 +9,51 @@
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/start-screen.css">
 </head>
 <body>
-<header class="main-header">
-  <div class="container section_nav">
-    <nav class="container__navigation">
-      <div class="navigation__logo">
-        <img src="styles/image/logo.png" height="20" width="65" alt="логотип" />
+<header class="header">
+  <div class="container">
+    <div class="header__content">
+      <div class="header__logo">
+        <div class="logo">
+          <a href="/">
+            <img src="images/logo.svg" height="20" width="65" alt="Логотип"/>
+          </a>
+        </div>
       </div>
-      <ul class="navigation__list">
-        <li class="list__catalog"><a href="#">Каталог</a></li>
-        <li class="list__gallery"><a href="#">Галерея</a></li>
-        <li class="list__info"><a href="#">О лабаратории</a></li>
-        <li class="list__contacts"><a href="#">Контакты</a></li>
-      </ul>
-      <div class="navigation__buttons">
-        <button class="navigation__search"></button>
-        <button class="navigation__login"></button>
+      <div class="header__nav">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#">Каталог</a></li>
+            <li class="navigation__item"><a href="#">Галерея</a></li>
+            <li class="navigation__item"><a href="#">О лабаратории</a></li>
+            <li class="navigation__item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
       </div>
-    </nav>
+      <div class="header__buttons">
+        <button class="header__search"><img src="images/search.svg" width="24" height="24" alt="Поиск"></button>
+        <button class="header__login"><img src="images/log-in.svg" width="24" height="24" alt="Вход"></button>
+      </div>
+    </div>
   </div>
 </header>
-
-
+<main class="main">
+  <section class="start-screen">
+    <div class="container">
+      <div class="start-screen__content">
+        <h1>Крупнейшая коллекция природных артефактов</h1>
+        <p>Являясь всего лишь частью общей картины, интерактивные прототипы, которые представляют собой яркий пример
+          европейского типа политической и социальной культуры.</p>
+        <a href="#">
+          Исследовать
+          <img src="images/Arrow%201.svg" alt="Исследовать">
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
 </body>
 </html>

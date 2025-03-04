@@ -1,0 +1,59 @@
+.start-screen {
+    background-image: url("../images/bg-start-screen-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 38%;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.start-screen:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(29, 47, 48, 0.7);;
+}
+
+.start-screen__content {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 490px;
+}
+
+.start-screen h1 {
+    font-family: var(--font-family-secondary);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--text-color);
+    max-width: 688px;
+    margin-bottom: 16px;
+}
+
+.start-screen p {
+    line-height: 1.5;
+    color: var(--text-color);
+    max-width: 635px;
+    margin-bottom: 24px;
+}
+
+.start-screen a {
+    display: flex;
+    gap: 10px;
+    color: var(--text-color-accent);
+    max-width: 160px;
+    font-weight: 700;
+}
+
+.start-screen a img {
+    position: relative;
+    top: 1px;
+}
