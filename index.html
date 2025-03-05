@@ -11,8 +11,9 @@
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/variables.css">
   <link rel="stylesheet" href="styles/start-screen.css">
-  <link rel="stylesheet" href="styles/cards-list.css">
-  <link rel="stylesheet" href="styles/block-kruglyash.css">
+  <link rel="stylesheet" href="styles/cards.css">
+  <link rel="stylesheet" href="styles/circle-block.css">
+  <link rel="stylesheet" href="styles/new-artefacts.css">
 </head>
 <body>
 <header class="header">
@@ -59,22 +60,106 @@
   <section class="cards">
     <div class="container">
       <div class="cards__content">
-        <article class="cards__card-item">
-          <div class="cards__card-image">
-            <div class="circle-block">
-              <p>2.4</p>
-            </div>
-            <img src="images/plant.png" width="223" height="120" alt="Растение">
-          </div>
-          <div class="cards__card-info">
-            <h3>Fig. 1 (plant)</h3>
-            <p>Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего мира
-              своевременно верифицированы.</p>
-            <button class="card-button">Подробнее</button>
-          </div>
-        </article>
+        <ul class="cards__list">
+          <li class="cards__item">
+            <article class="cards__card">
+              <div class="cards__card-image">
+                <div class="cards__circle">
+                  <div class="circle-block">
+                    <p>2.4</p>
+                  </div>
+                </div>
+                <img src="images/plant.png" width="223" height="120" alt="Растение">
+              </div>
+              <div class="cards__card-info">
+                <h3>Fig. 1 (plant)</h3>
+                <p>Имеется спорная точка зрения, гласящая примерно следующее: активно развивающиеся страны третьего
+                  мира
+                  своевременно верифицированы.</p>
+                <button class="card-button">Подробнее</button>
+              </div>
+            </article>
+          </li>
+          <li class="cards__item">
+            <article class="cards__card">
+              <div class="cards__card-image">
+                <div class="cards__circle">
+                  <div class="circle-block">
+                    <p>3.1</p>
+                  </div>
+                </div>
+                <img src="images/flower.png" width="223" height="120" alt="Цветок">
+              </div>
+              <div class="cards__card-info">
+                <h3>Fig. 2 (flower)</h3>
+                <p>Прежде всего, синтетическое тестирование влечет за собой процесс внедрения и модернизации
+                  условий.</p>
+                <button class="card-button">Подробнее</button>
+              </div>
+            </article>
+          </li>
+          <li class="cards__item">
+            <article class="cards__card">
+              <div class="cards__card-image">
+                <div class="cards__circle">
+                  <div class="circle-block">
+                    <p>1.2</p>
+                  </div>
+                </div>
+                <img src="images/leaf.png" width="223" height="120" alt="Лист">
+              </div>
+              <div class="cards__card-info">
+                <h3>Fig. 3 (leaf)</h3>
+                <p>Лишь непосредственные участники прогресса неоднозначны и будут в равной степени предоставлены сами
+                  себе для работы.</p>
+                <button class="card-button">Подробнее</button>
+              </div>
+            </article>
+          </li>
+          <li class="cards__item">
+            <article class="cards__card">
+              <div class="cards__card-image">
+                <div class="cards__circle">
+                  <div class="circle-block">
+                    <p>1.1</p>
+                  </div>
+                </div>
+                <img src="images/wood.png" width="223" height="120" alt="Бревно">
+              </div>
+              <div class="cards__card-info">
+                <h3>Fig. 4 (wood)</h3>
+                <p>Базовый вектор развития не даёт нам иного выбора, кроме определения новых предложений.</p>
+                <button class="card-button">Подробнее</button>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <div class="cards__actions">
+          <button><img src="images/arrow-left.svg" alt="Стрелка влево"></button>
+          <p>1 из 3</p>
+          <button><img src="images/arrow-right.svg" alt="Стрелка вправо"></button>
+        </div>
       </div>
     </div>
+  </section>
+  <section class="new-artefacts">
+    <div class="container">
+      <div class="new-artefacts__content">
+        <h2>Новые артефакты</h2>
+        <div class="new-artefacts__block">
+          <div class="new-artefacts__img">
+        <img src="images/new-artefacts.jpg"  alt="Новые артефакты">
+          </div>
+        <aside class="new-artefacts__bar">
+          <h3>Kurische Nehrung 24</h3>
+          <p>Вот вам яркий пример современных тенденций - начало повседневной работы по формированию позиции выявляет срочную потребность методов управления процессами.<br><br>
+            Есть над чем задуматься: представители современных социальных резервов своевременно верифицированы.</p>
+          <a href="#">Читать далее <img src="images/arrow-aside.svg" alt="Стрелка"></a>
+        </aside>
+        </div>
+      </div>
+    </div>
+
   </section>
 </main>
 </body>

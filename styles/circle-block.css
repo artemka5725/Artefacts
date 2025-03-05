@@ -1,15 +1,19 @@
 .circle-block {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
     font-family: var(--font-family-secondary);
     font-weight: 700;
-    position: relative;
-    top: 16px;
-    left: 16px;
     border: 1px solid var(--element-color);
     border-radius: 50%;
-    padding: 3px 5px 3px 5px;
+
 }
 
 .circle-block p {
     color: var(--element-color);
+    line-height: 1;
+    position: relative;
+    top: -2px;
 }
