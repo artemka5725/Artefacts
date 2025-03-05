@@ -1,6 +1,5 @@
 .cards {
     width: 100%;
-    min-height: 555px;
     background-color: var(--bg-color-base);
 }
 
@@ -12,13 +11,13 @@
 
 .cards__card-image {
     background-color: var(--bg-color-cards);
-    padding: 20px 16px 20px 16px;
+    padding: 30px 16px;
+}
+.cards__card-image img {
+
 }
 
 .cards__card-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     border: 1px solid var(--bg-color-cards);
     padding: 16px;
 }
@@ -35,7 +34,6 @@
 
 
 .card-button {
-    display: inline-block;
     color: var(--text-color-accent);
     border: 1px solid var(--text-color-accent);
     padding: 10.5px 28.5px 10.5px 28.5px;
