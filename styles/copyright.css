@@ -1,0 +1,9 @@
+.copyright  {
+    background-color:var(--bg-color-base) ;
+}
+.copyright__content {
+    color: var(--element-color);
+    font-size: 12px;
+    min-height: 22px;
+    text-align: center;
+}
